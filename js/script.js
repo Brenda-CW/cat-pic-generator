@@ -68,7 +68,7 @@ btns.forEach(function(i){
 
         console.log(breedNameDisp.innerText);
         breedNameDisp.classList.remove("hide");
-        breedNameDisp.innerText = `Here are come ${catName}'s`;
+        breedNameDisp.innerText = `Here are some ${catName}'s`;
         getBreed(catType);
     });
 })
