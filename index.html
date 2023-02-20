@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cat Pic Generators</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="main">
+      <h1>Let's See Some Cats!</h1>
+      <div class="random-container">
+        <h2>Random Cat Pic Generator!</h2>
+        <div class="num-cats">
+          <label for="users">How many cats would you like to see?</label>
+          <select name="users" id="users">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <div class="random-kitties"></div>
+      </div>
+      
+      <div class="breed-container">
+        <h2>Show Me Cats By Breed!</h1>
+          <div class="breed-select">
+            <button id="btn" value="beng" name="Bengal">Bengal</button>
+            <button id="btn" value="rblu" name="Russian Blue">Russian Blue</button>
+            <button id="btn" value="java" name="Javanese">Javanese</button>
+            <button id="btn" value="crex" name="Cornish Rex">Cornish Rex</button>
+            <button id="btn" value="munc" name="Munchkin">Munchkin</button>
+            <button id="btn" value="sfol" name="Scottish Fold">Scottish Fold</button>
+          </div>
+
+          <h2 class="breed-name hide">Breed</h2>
+          <div class="show-breed"></div>
+      </div>
+    </div>
+  </body>
+</html>
+

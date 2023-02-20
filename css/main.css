@@ -1,0 +1,138 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+h1 {
+  padding: 0.5em;
+  font-size: 4em;
+  font-family: 'Bubblegum Sans';
+  color: #e15554;
+  margin: 10px 3px;
+}
+
+h2 {
+  padding: 0.5em;
+  font-size: 3em;
+  font-family: 'Bubblegum Sans';
+  color: #64348a;
+  margin: 10px 3px;
+}
+
+img {
+  border-radius: 50%;
+  border: 3px solid #64348a;
+}
+
+.random-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: column nowrap;
+  width: 70%;
+  margin: 20px;
+  padding: 15px;
+  border: 2px solid#64348a;
+  border-radius: 10px;
+}
+
+.random-kitties {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.random-kitties div {
+  flex-basis: 250px;
+  text-align: center;
+  padding: 0.5em;
+  background-color: #d8dbe2;
+  border-radius: 10px;
+  margin: 1em;
+  -webkit-box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.377);
+  box-shadow: 5px 5px 18px 5px rgba(0, 0, 0, 0.377);
+}
+
+.num-users label {
+  font-size: 1.25em;
+  color:#e15554
+}
+
+#users, #breeds {
+  margin: 0 0.75em;
+  padding: 0.5em;
+  color: #64348a;
+  font-weight: bold;
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.breed-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 70%;
+  margin: 20px;
+  padding: 15px;
+  border: 2px solid#64348a;
+  border-radius: 10px;
+}
+
+.breed-select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 60%;
+  padding: 15px;
+  margin: 10px;
+}
+
+button {
+  background-color: #119da4;
+  border:none;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #64348a;
+  padding: 22px;
+  font-size: 1.75em;
+}
+
+.hide {
+  display: none;
+}
+
+.show-breed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 15px;
+  padding: 8px;
+}
+
+.breed-pic {
+  padding: 8px;
+  margin: 15px;
+}
